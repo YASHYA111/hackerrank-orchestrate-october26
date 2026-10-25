@@ -37,6 +37,13 @@ Run the starter Python entry point with:
 python3 code/main.py
 ```
 
+The hybrid Python implementation is in `code/`. Install its dependencies with
+`python -m pip install -r code/requirements.txt`, set `OPENAI_API_KEY` in the
+environment, and run `python code/main.py` from the repository root. The
+pipeline writes the root `output.csv` and updates
+`code/evaluation/usage_report.md`. See [`code/README.md`](./code/README.md) for
+the module overview, options, and offline test command.
+
 The blank template at `dataset/output.csv` is provided as a reference. Your final generated file for submission must be the root-level `output.csv`.
 
 
